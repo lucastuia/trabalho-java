@@ -1,25 +1,47 @@
 $(document) .ready(function(){
-    //adicionar o código javascript - jquery dentro do document.ready
-    $('#btnClique').click(function(){
-       //acao do clique no elemento definido
-       alert('');
+    
+    function CienciasHumanas() {
+        var escolha = prompt("Selecione a matéria");
 
-       //variavel
-       var nome=prompt('Digite seu nome');
-       alert(nome);
-       $('mensagem').html('<div class="alert alert-warning" role="alert">'+nome+'</div>');
+        switch (escolha.toLowerCase()) { 
+            case "História":
+                alert("Matéria: História. Este é o texto de História:")
+                break;
+            case "Geografia":
+                alert("Matéria: Geografia. Este é o texto de Geografia:")
+                break;
+            case "Filosofia":
+                alert("Matéria: Filosofia. Este é o texto de Filosofia:")
+                break;    
+            case "Sociologia":
+                alert("Matéria: Sociologia. Este é o texto de Sociologia:")
+                break; 
+            default:
+                alert("Isso não existe ou a matéria foi escrita errada.")
+                break;    
+        }
+    }
+
+
+    var botaoMateria = document.getElementById("btn_ch");
+    botaoMateria.addEventListener("click", CienciasHumanas);
+    
+    $("#btn_mat") .click(function(){
+        alert("teste3")
+     });
+    
+    $("#btn_tec") .click(function(){
+       alert("teste4")
     });
-});
 
-$(document) .ready(function(){
-    //adicionar o código javascript - jquery dentro do document.ready
-    $('#btnClique').click(function(){
-       //acao do clique no elemento definido
-       alert('dffddddcd');
+    $("#btn_pv") .click(function(){
+        alert("teste5")
+     });
 
-       //variavel
-       var nome=prompt('Digite seu nome');
-       alert(nome);
-       $('jonas').html('<div class="alert alert-warning" role="alert">'+nome+'</div>');
-    });
+     $("#btn_pp") .click(function(){
+        alert("teste6")
+     });
+
+
+
 });
