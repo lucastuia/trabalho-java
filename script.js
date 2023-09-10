@@ -5,16 +5,16 @@ $(document) .ready(function(){
 
         switch (escolha.toLowerCase()) { 
             case "história":
-                alert("texto de História:");
+                alert("Texto de História:");
                 break;
             case "geografia":
-                alert("texto de Geografia:");
+                alert("Texto de Geografia:");
                 break;
             case "filosofia":
-                alert("texto de Filosofia:");
+                alert("Texto de Filosofia:");
                 break;    
             case "sociologia":
-                alert("texto de Sociologia:");
+                alert("Texto de Sociologia:");
                 break; 
             default:
                 alert("Isso não existe ou a matéria foi escrita errada.");
@@ -31,13 +31,13 @@ $(document) .ready(function(){
 
         switch (escolha.toLowerCase()) { 
             case "física":
-                alert("texto de Física:");
+                alert("Texto de Física:");
                 break;
             case "biologia":
-                alert("texto de Biologia:");
+                alert("Texto de Biologia:");
                 break;
             case "química":
-                alert("texto de Química:");
+                alert("Texto de Química:");
                 break;    
             default:
                 alert("Isso não existe ou a matéria foi escrita errada.");
@@ -54,13 +54,13 @@ $(document) .ready(function(){
 
         switch (escolha.toLowerCase()) { 
             case "artes":
-                alert("texto de Artes:");
+                alert("Texto de Artes: Foi a matéria com menos “diversidade e quantidade” de conteúdos, afinal, nãos últimos meses, trabalhamos apenas com autorretrato e a produção do curta(o qual ainda não foi terminado), sinopse e a produção de cartazes desse curta, ou seja, tudo girou em volta do curta.");
                 break;    
             case "inglês":
-                alert("texto de Inglês:");
+                alert("Texto de Inglês: Trabalhamos com Future tenses, como Will, going to, present continuous para futuro, present simple para futuro, future perfect tense; também trabalhamos com os nomes de produtos tecnológicos como o telefone, computador, etc. Além de vermos a linguagem do html e CSS.");
                 break;
             case "português":
-                alert("texto de Português:");
+                alert("Texto de Português: Trabalhamos mais recentemente com subgêneros e gêneros literários, como o épico, dramático e o lírico.  Terminamos de ver o gênero textual de entrevista. Também o uso dos “porquês”. Além de trabalharmos a crônica, inclusive fazer uma cena de filme.  ");
                 break;    
             default:
                 alert("Isso não existe ou a matéria foi escrita errada.");
@@ -72,19 +72,19 @@ $(document) .ready(function(){
     
     
     $("#btn_mat") .click(function(){
-        alert("teste1")
+        alert("Texto de Matemática: Resumidamente trabalhamos fazendo e montando gráficos e contas, tanto no excel quanto no geogebra e caderno. Montamos e resolvemos funções (constante, crescente, decrescente, exponencial, etc), equações de primeiro e segundo grau, porcentagens, tabelas e potências.")
      });
     
     $("#btn_tec") .click(function(){
-       alert("teste2")
+       alert("Texto do Técnico: Trabalhamos mais recentemente com a linguagem de Javascript com o JQUERY, onde já está sendo testada nesse mesmo trabalho. Também usamos a linguagem HTML e CSS para produzir alguns sites de venda ou coisas do gênero, inclusive na produção de formulários (login, cadastro e busca). Fizemos sites e portifólio utilizando a plataforma do Bootstrap com tema livre, que a propósito facilitou a produção de sites.")
     });
 
     $("#btn_pv") .click(function(){
-        alert("teste3")
+        alert("Texto de Projeto de vida: Estudamos sobre as entrevistas de emprego (dinâmicas, métodos, maneiras de agir e falar) onde fizemos um trabalho de simulação de entrevista de emprego. Trabalhamos mais recentemente produzindo miniaulas, a qual fiz sobre Aristóteles. ")
      });
 
      $("#btn_pp") .click(function(){
-        alert("teste4")
+        alert("Texto de Projeto profissional:")
      });
 
 
