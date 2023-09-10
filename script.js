@@ -31,13 +31,13 @@ $(document) .ready(function(){
 
         switch (escolha.toLowerCase()) { 
             case "física":
-                alert("Texto de Física:");
+                alert("Texto de Física: Trabalhamos sobre troca de calor e equilíbrio térmico, gases ideais, termodinâmica, mais recentemente cálculos e gráficos de movimentos MRU, movimentos progressivos e retrógrados, velocidade constante e velocidade média.");
                 break;
             case "biologia":
-                alert("Texto de Biologia:");
+                alert("Texto de Biologia: Trabalhamos sobre pegada ecológica, consumo consciente e obsolescência programada. Também sobre sustentabilidade, onde envolvia o dia de sobrecarga da terra e conscientização sobre os recursos dela. Além das ODS (projetos para acabar com pobreza, fome, entre outras coisas até 2030). População, comunidade, biodiversidade e conservação. Também começamos com teoria celular, tipos de células, etc.");
                 break;
             case "química":
-                alert("Texto de Química:");
+                alert("Texto de Química: Trabalhamos sobre formulas de ligação iônica, regra do octeto, Lewis (covalente, estrutural e iônico), formula de Lewis, metais e ametais, ligação covalente normal e coordenada, ligações metálicas, além de celular polares e apolares.");
                 break;    
             default:
                 alert("Isso não existe ou a matéria foi escrita errada.");
@@ -84,7 +84,7 @@ $(document) .ready(function(){
      });
 
      $("#btn_pp") .click(function(){
-        alert("Texto de Projeto profissional:")
+        alert("Texto de Projeto profissional: Fizemos um trabalho de site sobre vendas onde precisávamos criar uma empresa e desenvolvê-la. Estudamos sobre Excel e sobre procrastinação, onde produzimos um cronograma no caderno.")
      });
 
 
