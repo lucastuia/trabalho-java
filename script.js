@@ -5,17 +5,14 @@ $(document) .ready(function(){
 
         switch (escolha.toLowerCase()) { 
             case "história":
-                alert("Texto de História:");
+                alert("Texto de História: Trabalhamos sobre e as dinâmicas espaciais e sociais, dentre elas o mercado livre, produtos concorrerem entre sí, acúmulo de capital e a livre concorrência. Também teve o darwinismo social, positivismo, etc; além de empresas e produtos sustentáveis e as ODS. E mais recentemente, trabalhamos em cima do documentário “terra brasileiras”, o qual mostra uma disputa de território que envolve indígenas e produtores rurais causado pelo estado.");
                 break;
             case "geografia":
-                alert("Texto de Geografia:");
+                alert("Texto de Geografia/Sociologia: Foram basicamente os mesmos conteúdos de história, ou seja, dinâmicas espaciais e sociais (mercado livre, positivismo, darwinismo, acúmulo de capital), empresas e produtos, além das ODS. Também teve o documentário das disputas de territórios causadas pelo estado, a qual envolvia os indígenas e produtores rurais.");
                 break;
             case "filosofia":
-                alert("Texto de Filosofia:");
+                alert("Texto de Filosofia: Outra matéria que não teve muito conteúdo, sendo mais um período para complementar o de história e geografia/sociologia. Apenas trabalhamos com alguns filósofos como Aristóteles, além de um pouco de conteúdo sobre o capitalismo, como as dinâmicas espaciais e sociais. ");
                 break;    
-            case "sociologia":
-                alert("Texto de Sociologia:");
-                break; 
             default:
                 alert("Isso não existe ou a matéria foi escrita errada.");
                 break;    
@@ -37,7 +34,7 @@ $(document) .ready(function(){
                 alert("Texto de Biologia: Trabalhamos sobre pegada ecológica, consumo consciente e obsolescência programada. Também sobre sustentabilidade, onde envolvia o dia de sobrecarga da terra e conscientização sobre os recursos dela. Além das ODS (projetos para acabar com pobreza, fome, entre outras coisas até 2030). População, comunidade, biodiversidade e conservação. Também começamos com teoria celular, tipos de células, etc.");
                 break;
             case "química":
-                alert("Texto de Química: Trabalhamos sobre formulas de ligação iônica, regra do octeto, Lewis (covalente, estrutural e iônico), formula de Lewis, metais e ametais, ligação covalente normal e coordenada, ligações metálicas, além de celular polares e apolares.");
+                alert("Texto de Química: Trabalhamos sobre fórmulas de ligação iônica, regra do octeto, Lewis (covalente, estrutural e iônico), formula de Lewis, metais e ametais, ligação covalente normal e coordenada, ligações metálicas, além de ligações polares e apolares.");
                 break;    
             default:
                 alert("Isso não existe ou a matéria foi escrita errada.");
@@ -60,7 +57,7 @@ $(document) .ready(function(){
                 alert("Texto de Inglês: Trabalhamos com Future tenses, como Will, going to, present continuous para futuro, present simple para futuro, future perfect tense; também trabalhamos com os nomes de produtos tecnológicos como o telefone, computador, etc. Além de vermos a linguagem do html e CSS.");
                 break;
             case "português":
-                alert("Texto de Português: Trabalhamos mais recentemente com subgêneros e gêneros literários, como o épico, dramático e o lírico.  Terminamos de ver o gênero textual de entrevista. Também o uso dos “porquês”. Além de trabalharmos a crônica, inclusive fazer uma cena de filme.  ");
+                alert("Texto de Português: Trabalhamos mais recentemente com subgêneros e gêneros literários, como o épico, dramático e o lírico.  Terminamos de ver o gênero textual de entrevista. Também o uso dos “porquês”. Além de trabalharmos a crônica, inclusive fazer uma cena de filme (alto da compadecida).  ");
                 break;    
             default:
                 alert("Isso não existe ou a matéria foi escrita errada.");
@@ -84,7 +81,7 @@ $(document) .ready(function(){
      });
 
      $("#btn_pp") .click(function(){
-        alert("Texto de Projeto profissional: Fizemos um trabalho de site sobre vendas onde precisávamos criar uma empresa e desenvolvê-la. Estudamos sobre Excel e sobre procrastinação, onde produzimos um cronograma no caderno.")
+        alert("Texto de Projeto profissional: fizemos um trabalho de site sobre vendas onde precisávamos criar uma empresa e desenvolvê-la. Estudamos sobre Excel e sobre procrastinação, onde produzimos um cronograma no caderno, inclusive a parte de carta, bilhete, etc.")
      });
 
 
